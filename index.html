@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>Criar uma conta</h2>
+        </div>
+
+        <form action="" method="post" id="form" class="form">
+            <div class="form-control">
+                <label for="username">Nome do Usuário:</label>
+                <input type="text" name="username" id="username" placeholder="Digite seu nome de usuário">
+                <span class="material-icons-outlined error">
+                    error_outline
+                </span>
+                <span class="material-icons-outlined check">
+                    check_circle
+                </span>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email">
+                <span class="material-icons-outlined error">
+                    error_outline
+                </span>
+                <span class="material-icons-outlined check">
+                    check_circle
+                </span>
+                <small>Mensagem de erro</small>
+            </div>
+
+
+            <div class="form-control">
+                <label for="password">Senha:</label>
+                <input type="password" name="password" id="password" placeholder="Digite a sua senha">
+                <span class="material-icons-outlined error ">
+                    error_outline
+                </span>
+                <span class="material-icons-outlined check">
+                    check_circle
+                </span>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password-confirmation">Confirmação de Senha:</label>
+                <input type="password" name="password-confirmation" id="password-confirmation"
+                    placeholder="Digite a senha novamente">
+                <span class="material-icons-outlined error">
+                    error_outline
+                </span>
+                <span class="material-icons-outlined check">
+                    check_circle
+                </span>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
